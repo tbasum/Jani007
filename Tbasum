@@ -453,8 +453,7 @@ def brute():
         login()
     else:
         os.system('clear')
-        print logo
-        print '\033[1;31;40m ●════════════════════════◄►════════════════════════●'
+        
         try:
             email = raw_input('\033[1;97m[+] \033[1;97mID\033[1;97m/\033[1;97mEmail \033[1;97mTarget \033[1;97m:\033[1;97m ')
             passw = raw_input('\033[1;97m[+] \033[1;97mWordlist \033[1;97mext(list.txt) \033[1;97m: \033[1;97m')
